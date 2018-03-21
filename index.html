@@ -6,10 +6,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel='stylesheet' href='css/stylesheet.css'>
 </head>
 
 <body>
+  <form>
+    <p id='error'></p>
+    <label>First name:</label>
+    <input type='text' name='firstname'>
+    <label>Last name:</label>
+    <input type='text' name='lastname'>
+    <label>Username:</label>
+    <input type='text' name='username'>
+    <label>Date of birth:</label>
+    <input type='date' name='date'>
+    <label>Gender:</label>
+    <div>
+      <select name='gender'>
 
+        <option value="male">male</option>
+
+        <option value="female">female</option>
+
+        <option value="non-binary">non-binary</option>
+
+        <option selected="selected" value="prefer not to say">prefer not to say</option>
+
+        <option value="prefer to self identify">prefer to self identify</option>
+      </select>
+    </div>
+    <label>Phone number:</label>
+    <input type="telephone" name="phonenumber">
+    <label>Address:</label>
+    <input type="text" name="address">
+    <label>Postcode:</label>
+    <input type="text" name="postcode">
+    <label>Email:</label>
+    <input type="email" name="email">
+    <label>Bank account number:</label>
+    <input type="text" name="accountnumber">
+    <label>Sort Code:</label>
+    <input type="text" name="sortcode">
+    <label>Account type</label>
+    <div>
+      <label>Personal</label>
+      <input checked type="radio" name="type" value="personal">
+      <label>Business</label>
+      <input type="radio" name="type" value="business">
+    </div>
+    <label>How did you hear about us?</label>
+    <div>
+      <select name='referralType'>
+
+        <option value="internet">internet</option>
+
+        <option value="magazine">magazine</option>
+
+        <option value="word of mouth">word of mouth</option>
+
+        <option value="carrier pigeon">carrier pigeon</option>
+
+        <option value="other">other</option>
+      </select>
+    </div>
+  </form>
+
+  <script src='scripts/script.js'></script>
 </body>
 
 </html>

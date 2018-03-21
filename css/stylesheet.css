@@ -1,0 +1,19 @@
+input {
+  border-radius: 5px;
+  display: block;
+  outline: none;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.error:focus {
+  outline: none;
+  border-color: red;
+  box-shadow: 0 0 7px red;
+}
+
+div input {
+  display: inline;
+}
