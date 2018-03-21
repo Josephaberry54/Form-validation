@@ -11,7 +11,7 @@ design an engaging and navigable UX with clear feedback
 Task:
 You need to write a typical account creation form for a fictional website (the purpose of which is delegated to your imagination, but think along the lines of Facebook or Twitter).
 
-We have pre-populated a MongoDB database with a selection of a thousand users. The API for this database can be found at https://pure-dusk-74256.herokuapp.com. You have access to the following endpoints:
+We have pre-populated a MongoDB database with a selection of a thousand users. The link to the API for this database can be found in config. You have access to the following endpoints:
 
 /api/users GET - returns all users. POST - adds a user. It requires data for all the keys in the first list below else you will get an error.
 
